@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+					
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+					<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+					<meta charset="utf-8">
+
+														<!-- Title -->
+
+												<title>Movie Factory</title>
+</head>
+
+<!--Header -->
+
+<body style="background-color: #171e24;">
+<header class="p-4" style="background-color: black;">
+		<div class="container">
+			<div class="d-flex justify-content-center text-white">
+					<h1>Movie Factory</h1>
+			</div>
+		</div>
+</header>
+
+<!-- Navigation Bar -->
+
+<ul class="nav bg-secondary p-2">
+  <li class="nav-item text-light ml-3">
+    <h3>Home</h3>
+  </li>
+</ul>
+
+<!-- Title -->
+<div class="container">
+	<div class="d-flex justify-content-center text-white mt-5">
+		<h2>Movies</h2>
+	</div>
+</div>
+
+<!-- first 2 pictures left and right with thumbs up -->
+
+<div class="container d-flex justify-content-between mt-5">
+	<div class="media" style="background-color: #111111">
+  		<img id="img" class="d-flex align-self-start mr-3" src="img/dog.jpg">
+  			<div class="media-body">
+    			<h5  id="dog" class="mt-0 text-white">Who let the Dogs out</h5>
+    			<p id="movie" class="text-white d-flex justify-content-between">A movie about Dogs eating popcorn.</p>
+    			<i onclick="like()" class="fa fa-thumbs-up text-success p-5 d-flex justify-content-between"><p type="text" id="show"></p></i>
+			</div>
+		</div>
+
+	<div class="media" style="background-color: #111111">
+  		<img id="img" class="d-flex align-self-start mr-3" src="img/dog.jpg">
+  			<div class="media-body">
+    			<h5 id="dog" class="mt-0 text-white">Who let the Dogs out</h5>
+   				<p id="movie" class="text-white d-flex justify-content-between">A movie about Dogs eating popcorn.</p>
+    			<i onclick="like1()" class="fa fa-thumbs-up text-success p-5 d-flex justify-content-between"><p type="text" id="show1"></p></i>
+			</div>
+	</div>
+</div>
+
+<!-- Second 2 pictures left and right with thumbs up -->
+
+<div class="container d-flex justify-content-between mt-5">
+	<div class="media" style="background-color: #111111">
+  		<img id="img" class="d-flex align-self-start mr-3" src="img/dog.jpg">
+  			<div class="media-body">
+    			<h5 id="dog" class="mt-0 text-white">Who let the Dogs out</h5>
+    			<p id="movie" class="text-white d-flex justify-content-between">A movie about Dogs eating popcorn.</p>
+    			<i onclick="like2()" class="fa fa-thumbs-up text-success p-5 d-flex justify-content-between"><p type="text" id="show2"></p></i>
+			</div>
+	</div>
+	<div class="media" style="background-color: #111111">
+  		<img id="img" class="d-flex align-self-start mr-3" src="img/dog.jpg">
+  			<div class="media-body">
+    			<h5 id="dog" class="mt-0 text-white">Who let the Dogs out</h5>
+    			<p id="movie" class="text-white d-flex justify-content-between">A movie about Dogs eating popcorn.</p>
+    			<i onclick="like3()" class="fa fa-thumbs-up text-success p-5 d-flex justify-content-between"><p type="text" id="show3"></p></i>
+			</div>
+	</div>
+</div>
+
+<!-- last 2 pictures left and right with thumbs up -->
+
+<div class="container d-flex justify-content-between mt-5">
+		<div class="media" style="background-color: #111111">
+  			<img id="img" class="d-flex align-self-start mr-3" src="img/dog.jpg">
+  				<div class="media-body">
+   			 		<h5 id="dog" class="mt-0 text-white">Who let the Dogs out</h5>
+    				<p id="movie" class="text-white d-flex justify-content-between">A movie about Dogs eating popcorn.</p>
+    				<i onclick="like4()" class="fa fa-thumbs-up text-success p-5 d-flex justify-content-between"><p type="text" id="show4"></p></i>
+				</div>
+		</div>
+
+		<div class="media" style="background-color: #111111">
+  			<img id="img" class="d-flex align-self-start mr-3" src="img/dog.jpg">
+  				<div class="media-body">
+    				<h5 id="dog" class="mt-0 text-white">Who let the Dogs out</h5>
+    				<p id="movie" class="text-white d-flex justify-content-between">A movie about Dogs eating popcorn.</p>
+    				<i onclick="like5()" class="fa fa-thumbs-up text-success p-5 d-flex justify-content-between"><p type="text" id="show5"></p></i>
+			</div>
+		</div>
+</div>
+
+<!-- footer -->
+
+<footer class="p-5 mt-5" style="background-color: black;">
+	<div class="container">
+		<div class="d-flex justify-content-center text-white">
+			<h1>Movie Factory</h1>
+		</div>
+	</div>
+</footer>
+
+			<!-- JS script -->
+
+		<script type="text/javascript" src="js/myscript.js"></script>
+</body>
+</html>
