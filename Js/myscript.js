@@ -1,44 +1,88 @@
-var likes = 1;
+$(document).ready(function(){
 
-function like(){
-	document.getElementById("show").innerHTML = +likes;
-	likes = likes +1;
-}
+	var film = $('.movie');
 
-var likes1 = 1;
+	var sort = $('.sort');
 
-function like1(){
-	document.getElementById("show1").innerHTML = +likes1;
-	likes1 = likes1 +1;
-}
+	function check(a,b){
 
-var likes2 = 0;
+		if(a.value < b.value){
 
-function like2(){
-	document.getElementById("show2").innerHTML = +likes2;
-	likes2 = likes2 +1;
-}
+			return 1;
 
-var likes3 = 0;
+		}else{
 
-function like3(){
-	document.getElementById("show3").innerHTML = +likes3;
-	likes3 = likes3 +1;
-}
+			if(a.value > b.value){
 
-var likes4 = 0;
+				return -1;
 
-function like4(){
-	document.getElementById("show4").innerHTML = +likes4;
-	likes4 = likes4 +1;
-}
+			}else{
 
-var likes5 = 0;
+				return 0;
+				
+					}
+			}
 
-function like5(){
-	document.getElementById("show5").innerHTML = +likes5;
-	likes5 = likes5 +1;
-}
+	}
+	
+	arrObj.sort(check);
+	newOrder(arrObj);
+
+	function newOrder(a,b){
+
+		for(let i = 0; i < film.length; i++){
+			$(film[i]).html(`
+
+			 <div class="row">              
+			    <div class="col-lg-4 col-md-6 mx-auto "> 
+			        <img class="filmImg " src="${a[i].pic}" alt="${a[i].name}">
+			    </div>
+			        <div class="col-lg-8 ">
+			              
+			            <h1 class="movieTitle ml-lg-1 mx-md-auto text-white">${a[i].name}</h1>
+			            <p class="fdescrition filmImg mb-md-3 mb-sm-3 pl-1 text-white"> 
+			                  ${a[i].bio} 
+			            </p>
+			                                                
+			            <div class="mt-md-5 mt-sm-5 text-success">
+			                  <span class="i_like_it"><i class="fas fa-thumbs-up"></i> 
+			                 	 <span class="likesNumber">${a[i].value}</span>
+			                  </span>
+			           </div>
+			        </div>
+			  </div>
+
+			`);
+
+		}
+
+		var like = $(".i_like_it");
+		var increasedLikes = $(".likesNumber");
+
+		for(let i = 0; i < film.length; i++){
+
+			$(like[i]).on('click', function(){
+
+					++arrObj[i].value;
+
+					$(increasedLikes[i]).text(arrObj[i].value);
+
+					$('.sort').on('click' ,function(){
+						
+						arrObj.sort(check);
+						newOrder(arrObj);
+						
+					})
 
 
+			});
+
+		}
+
+
+
+	}
+
+
+});
 

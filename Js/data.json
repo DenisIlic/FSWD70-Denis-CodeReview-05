@@ -1,0 +1,61 @@
+var arrObj = [ {
+
+
+      "name": "Fearless",
+
+      "value": "0",
+
+      "pic": "img/fearless.jpg",
+
+      "bio": "A Martial Arts movie about Huo Yuanjia, who wants to be the best fighter."
+
+   }, {
+
+      "name": "Jackie Chan Drunken Master",
+
+      "value": "0",
+
+      "pic": "img/drunken.jpg",
+
+      "bio": "A Martial Arts movie about Jackie Chan who fights with his new style Drunken boxing."
+
+   },{
+
+      "name": "Your Name",
+
+      "value": "0",
+
+      "pic": "img/YourName.jpg",
+
+      "bio": "A movie about a Boy and a Girl. the girl has the dream to live in Japan in a Town as a boy. And the boy has a similar dream he wants to be a Girl and live in the mountains."
+
+   },{
+
+      "name": "A Silent Voice",
+
+      "value": "0",
+
+      "pic": "img/voice.jpg",
+
+      "bio": "About Shoya who goes to school and one day he gets a classmate her name is Shoko and she is deaf. So he started mobbing her."
+
+   },{
+
+      "name": "Warcraft: The Beginning",
+
+      "value": "0",
+
+      "pic": "img/WoW.jpg",
+
+      "bio": "This Movie is based on the game: World of Warcraft."
+
+   },{
+
+      "name": "Troll Hunter",
+
+      "value": "0",
+
+      "pic": "img/Troll-Hunter.jpg",
+
+      "bio": "This movie is about a Group of Students. They have to do a movie for their Projects so they are trying to hunt real Trolls."
+   } ]
