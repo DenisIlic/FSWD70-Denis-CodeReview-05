@@ -5,6 +5,8 @@ var arrObj = [ {
 
       "value": "0",
 
+      "value1": "0",
+
       "pic": "img/fearless.jpg",
 
       "bio": "A Martial Arts movie about Huo Yuanjia, who wants to be the best fighter."
@@ -14,6 +16,8 @@ var arrObj = [ {
       "name": "Jackie Chan Drunken Master",
 
       "value": "0",
+
+      "value1": "0",
 
       "pic": "img/drunken.jpg",
 
@@ -25,6 +29,8 @@ var arrObj = [ {
 
       "value": "0",
 
+      "value1": "0",
+
       "pic": "img/YourName.jpg",
 
       "bio": "A movie about a Boy and a Girl. the girl has the dream to live in Japan in a Town as a boy. And the boy has a similar dream he wants to be a Girl and live in the mountains."
@@ -34,6 +40,8 @@ var arrObj = [ {
       "name": "A Silent Voice",
 
       "value": "0",
+
+      "value1": "0",
 
       "pic": "img/voice.jpg",
 
@@ -45,6 +53,8 @@ var arrObj = [ {
 
       "value": "0",
 
+      "value1": "0",
+
       "pic": "img/WoW.jpg",
 
       "bio": "This Movie is based on the game: World of Warcraft."
@@ -54,6 +64,8 @@ var arrObj = [ {
       "name": "Troll Hunter",
 
       "value": "0",
+
+      "value1": "0",
 
       "pic": "img/Troll-Hunter.jpg",
 
